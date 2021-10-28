@@ -5,14 +5,10 @@
 }
 
 .goBack {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   min-width: 130px;
-  height: 30px;
   margin: 0;
   margin-left: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 5px;
   background-color: rgb(248, 100, 14);
   color: #ffffff;
@@ -22,6 +18,7 @@
   outline: none;
   cursor: pointer;
 }
+
 .goBack span {
   margin-right: 10px;
   font-weight: 700;
@@ -32,6 +29,7 @@
 .goBack:focus {
   transform: scale(1.02);
 }
+
 /* .wrapperIn {
   padding: 0 10px;
 } */
@@ -40,6 +38,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .containerImage {
   min-width: 200px;
   max-width: 450px;
@@ -48,7 +47,7 @@
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
-  background-color: #7e7e7e;
+  background-color: #faa302;
   box-shadow: 0px 2px 4px -1px rgba(71, 71, 71, 0.2),
     0px 4px 5px 0px rgba(70, 70, 70, 0.14),
     0px 1px 10px 0px rgba(70, 70, 70, 0.12);
@@ -61,13 +60,16 @@
   height: 100%;
   object-fit: cover;
 }
+
 .iner {
   text-align: center;
   padding: 0 10px;
 }
+
 .description {
   text-align: left;
 }
+
 .movieName {
   padding: 15px 0;
   text-align: center;
@@ -75,11 +77,13 @@
   font-weight: 600;
   color: #f8640e;
 }
+
 .title {
   margin: 0px 0px 20px;
   font-size: 24px;
   font-weight: 600;
 }
+
 .subtitle {
   margin: 0px 0px 25px;
   font-size: 24px;
@@ -101,6 +105,7 @@
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
+
 .genre {
   margin-right: 10px;
   font-size: 20px;
@@ -116,6 +121,7 @@
   color: #ffffff;
   text-align: center;
 }
+
 .list {
   display: flex;
   align-items: center;
@@ -140,11 +146,13 @@
   background: #f8640e;
   transition: all 200ms ease;
 }
+
 .link:hover,
 .link:focus {
   background: #f7d5c2;
   color: #f8640e;
 }
+
 .activLink {
   background: #f5a169;
 }
@@ -166,16 +174,20 @@
     margin-right: 30px;
     margin-bottom: 0;
   }
+
   .iner {
     display: flex;
   }
+
   .detailInfo {
     margin: 15px 0px 40px 0px;
   }
+
   .list {
     flex-direction: row;
     justify-content: center;
   }
+
   .item:first-child {
     margin-right: 40px;
     margin-bottom: 0;

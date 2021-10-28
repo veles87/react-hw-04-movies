@@ -2,6 +2,7 @@
   padding: 20px 15px 0px 15px;
   text-align: center;
 }
+
 .title {
   margin: 0px 0px 20px;
   font-size: 24px;
@@ -10,6 +11,7 @@
   text-transform: capitalize;
   color: #f8640e;
 }
+
 .container {
   display: flex;
   justify-content: center;

@@ -33,6 +33,7 @@
   border: 2px solid rgb(248, 100, 14);
   transform: scale(1.01);
 }
+
 .searchButton {
   display: flex;
   justify-content: center;
@@ -50,6 +51,7 @@
   outline: none;
   cursor: pointer;
 }
+
 .searchButton:hover,
 .searchButton:focus {
   transform: scale(1.02);

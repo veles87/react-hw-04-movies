@@ -8,14 +8,8 @@ import routes from '../../routes';
 
 function MovieCard({ movie, location }) {
   const from = location.state?.from;
-  const {
-    poster_path,
-    original_title,
-    vote_average,
-    overview,
-    genres,
-    id,
-  } = movie;
+  const { poster_path, original_title, vote_average, overview, genres, id } =
+    movie;
   return (
     <div>
       <div className={s.container}>
